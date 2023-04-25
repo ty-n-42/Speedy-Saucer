@@ -3,7 +3,18 @@ extends RigidBody2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	test();
+
+
+func test():
+	print("testing a new function");
+	print(10);
+	print(3.142);
+	print(10 / 3);
+	print(10 / 3.0);
+	print(10.0 / 3);
+	print(10.0 / 3.0);
+	print("ten " + str(10) + ", five and a half " + str(5.5));
 
 #
 # Called every frame. 'delta' is the elapsed time since the previous frame.
