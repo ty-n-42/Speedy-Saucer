@@ -16,3 +16,9 @@ position = Vector2(334, 171)
 
 [node name="Player2" parent="." instance=ExtResource("2_rkx4e")]
 position = Vector2(709, 392)
+gravity_scale = 2.0
+
+[node name="Sprite2D" parent="Player2" index="0"]
+scale = Vector2(2, 2)
+
+[editable path="Player2"]

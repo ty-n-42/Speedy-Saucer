@@ -6,7 +6,6 @@
 radius = 44.0
 
 [node name="Player" type="RigidBody2D"]
-gravity_scale = 0.0
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_drxsu")
