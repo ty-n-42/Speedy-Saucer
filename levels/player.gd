@@ -15,6 +15,8 @@ func test():
 	print(10.0 / 3);
 	print(10.0 / 3.0);
 	print("ten " + str(10) + ", five and a half " + str(5.5));
+	var value: int = 2 + 3 + 5;
+	print(value);
 
 #
 # Called every frame. 'delta' is the elapsed time since the previous frame.
